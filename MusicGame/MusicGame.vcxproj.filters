@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>cf7ae305-19d2-4db9-a064-21231e9edaa8</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{090f26ca-82ea-49e8-a645-79c50e7a4aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{5370d679-cc7a-42cd-91dc-fee0661878a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{dbc8cc97-3ab0-4118-ba71-ff194f2611fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{024b945a-dc4e-4991-818e-bea88bde7940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6e577d55-f5c4-4ee2-9bdd-1a2b938e6e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MusicData">
+      <UniqueIdentifier>{32a9af9c-0872-4021-9cb8-07ae78c7c6a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h" />
+    <ClInclude Include="System\Singleton.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DXTKManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Notes.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\NotesManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ADX2Le.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\BinaryFile.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DeviceResources.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\CueSheet_0.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\MusicData\MusicData.h">
+      <Filter>MusicData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Lane.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Star.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\BackGround.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="System\DXTKManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Notes.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\NotesManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\ADX2Le.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\BinaryFile.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DeviceResources.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Lane.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Star.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\BackGround.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Particle.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\ParticleGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticlePS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
